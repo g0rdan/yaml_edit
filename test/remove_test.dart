@@ -218,7 +218,7 @@ c: 3
 '''));
     });
 
-    test('issue #55 reopend', () {
+    test('issue #55 reopened', () {
       final doc = YamlEditor('''name: sample
 version: 0.1.0
 environment:
@@ -230,7 +230,7 @@ dev_dependencies:
       doc.remove(['dev_dependencies']);
     });
 
-    test('issue #55 reopend, variant 2', () {
+    test('issue #55 reopened, variant 2', () {
       final doc = YamlEditor('''name: sample
 version: 0.1.0
 environment:
